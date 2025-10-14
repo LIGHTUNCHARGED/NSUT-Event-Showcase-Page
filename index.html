@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovision 2025</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <a href="#home" class="logo">Innovision</a>
+
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#timer">Timer</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="ri-menu-line" id="menu-icon"></div>
+        </header>
+
+<<section class="page-section" id="home">
+    <div class="home-text">
+        <h1 data-animation="fade-in-up">Innovision <span class="highlight">2025</span></h1>
+        <h5 data-animation="fade-in-up" data-delay="0.3s">Dive into NSUT's legendary techno-managerial fest, where code collides with strategy in a two-day spectacle of thrilling competitions, expert talks, and electrifying shows.</h5>
+        
+        <div class="event-details" data-animation="fade-in-up" data-delay="0.5s">
+            <p><i class="ri-calendar-event-line"></i> 2nd - 3rd November 2025</p>
+            <p><i class="ri-map-pin-line"></i> NSUT, Dwarka, New Delhi</p>
+        </div>
+        <a href="#register" class="btn" data-animation="fade-in-up" data-delay="0.8s">Register Now</a>
+    </div>
+    
+    <div class="home-graphics">
+        <div class="graphic-item item-1" data-animation="slide-in-right" data-delay="0.2s">
+            <img src="image1.png" alt="Event highlight 1"> 
+        </div>
+        <div class="graphic-item item-2" data-animation="slide-in-right" data-delay="0.5s">
+            <img src="image2.png" alt="Event highlight 2">
+        </div>
+        <div class="graphic-shape" data-animation="fade-in" data-delay="0.8s"></div>
+    </div>
+</section>
+
+        <section class="page-section autoShow" id="timer">
+            <div class="timer-content">
+                <h2>The <span class="highlight">Countdown</span> Has Begun</h2>
+                <p>Get ready for the most anticipated tech event of the year!</p>
+                <div id="countdown">
+                    <div class="time-box"><span id="days">00</span>Days</div>
+                    <div class="time-box"><span id="hours">00</span>Hours</div>
+                    <div class="time-box"><span id="minutes">00</span>Minutes</div>
+                    <div class="time-box"><span id="seconds">00</span>Seconds</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="schedule">
+            <div class="section-content">
+                <h2 class="autoShow1">Event <span class="highlight">Schedule</span></h2>
+                <div class="schedule-container">
+                    <div class="schedule-day reveal">
+                        <h3>Day 1: Innovation Kickstart</h3>
+                        <ul>
+                            <li><span class="time">10:00 AM:</span> Opening Ceremony @ Main Auditorium</li>
+                            <li><span class="time">11:30 AM:</span> Keynote by Tech Leader @ Seminar Hall 1</li>
+                            <li><span class="time">02:00 PM:</span> AI & Robotics Workshop @ Lab 101</li>
+                        </ul>
+                    </div>
+                    <div class="schedule-day reveal">
+                        <h3>Day 2: The Grand Finale</h3>
+                        <ul>
+                            <li><span class="time">09:00 AM:</span> Hackathon Finale Pitches @ Main Auditorium</li>
+                            <li><span class="time">01:00 PM:</span> Project Expo @ Exhibition Hall</li>
+                            <li><span class="time">04:00 PM:</span> Prize Distribution & Closing Ceremony</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section fadeUp" id="register">
+            <div class="section-content">
+                <h2>Join The <span class="highlight">Future</span></h2>
+                <form class="registration-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="NSUT Roll Number" required>
+                    <button type="submit" class="btn">Secure My Spot</button>
+                </form>
+            </div>
+        </section>
+        
+        <footer class="reveal" id="contact">
+            <h2>Connect With Us</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/innovisionnsut/?igsh=Z2h2cHc4eHRsMzZ2#"><i class="ri-instagram-line"></i></a>
+                <a href="https://www.facebook.com/Innoitis/"><i class="ri-facebook-box-line"></i></a>
+                <a href="#"><i class="ri-linkedin-box-line"></i></a>
+            </div>
+            <p>For any queries, email me at <a href="mailto:studymanit297@gmail.com">studymanit297@gmail.com</a></p>
+            <p>&copy; 2025 Innovision. All Rights Reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
