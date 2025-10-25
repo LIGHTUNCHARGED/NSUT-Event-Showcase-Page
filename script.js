@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-const eventDate = new Date('November 2, 2025 10:00:00').getTime();
+const eventDate = new Date('November 3, 2025 10:00:00').getTime();
 const countdownFunction = setInterval(() => {
     const now = new Date().getTime();
     const distance = eventDate - now;
@@ -98,4 +98,5 @@ const countdownFunction = setInterval(() => {
             document.getElementById('countdown').innerHTML = "<h3>The Event Has Started!</h3>";
         }
     }
+
 }, 1000);
